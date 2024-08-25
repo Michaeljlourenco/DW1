@@ -27,18 +27,24 @@
           </article>
           </section>
           <img src="imagem/saca.png" alt="saca de cafe " srcset="">
-          <form action="action page.php">
-            <label for="usename">Login</label><br>
-            <input type="text" id="usename" value="usename">
-            <label for="pwd">Senha</label><br>
-            <input type="password" id="pwd" volue="pwd"><br>
-            <input type="submit"voleu=submit> 
-            <type="text">faça login para acesso a sua conta </type>'
-            <h3>login com Facebook</h3>
-            <img src="imagem/2023_Facebook_icon.svg.png" alt="login facebook" width="30" height="30">
-            <button onclick="facebook">Entrar</button> 
-                      </form> 
-
+          <form action="cadastro-de-produtos" method="post">
+            <label for="nome">Nome do Produto</label>
+            <input type="text" id="nome" name="nome"> 
+      
+            <label for="descricao">Descrição do Produto</label>
+            <textarea id="descricao" name="descricao" rows="4"></textarea>
+      
+            <label for="preco">Preço</label>
+            <input type="number" id="preco" name="preco" step="0.01" min="0">
+      
+            <label for="categoria">Categoria</label>
+            <select id="categoria" name="categoria">
+              <option value="250g">250g</option>
+              <option value="500g">500g</option>
+              <option value="1kg">1kg</option>
+            </select>
+                <button type="submit">Cadastrar Produto</button>
+          </form>
           </main>
 
           <footer>

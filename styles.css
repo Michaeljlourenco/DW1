@@ -71,6 +71,27 @@ header h1 {
     max-width: 100%;
     height: auto;
   }
+  /* Estilos para o formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+    form input[type="text"],
+  form input[type="number"],
+  form textarea,
+  form select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+  }
   
   /* Estilos para o rodapé */
   footer {

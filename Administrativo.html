@@ -23,20 +23,34 @@
 <article>
   Cadastre seus produtos para alcança as clientes
 </article>
-       <form action="cadrastro de produtos "> Nome do Produtos</form> <br>
-       <label for="nome"> Nome do produto</label>
-       <input type="text" id ="nome" name="name"> 
-       <label for="descrição"> descrição do Produto</label>
-       <textarea name="" id="descrição" name="descrição" rows="4"></textarea>
-       <label for="preço">Preço</label>
-       <input type="numero" name="preçp" id="preço">
-       <label for="Categoria">Categorias</label>
-       <select name="categoria" id="categoria">Categoria<
-       <option value="250g">250g</option>
-       <option value="500g">500g</option>
-       <option value="1kg">1kg</option>
-       </select>
+<form action="cadastro-de-produtos" method="post">
+  <!-- Nome do Produto -->
+  <fieldset>
+    <legend>Cadastro de Produto</legend>
+    
+    <label for="nome">Nome do Produto</label>
+    <input type="text" id="nome" name="nome" placeholder="Digite o nome do produto"> 
 
+    <!-- Descrição do Produto -->
+    <label for="descricao">Descrição do Produto</label>
+    <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva o produto"></textarea>
+
+    <!-- Preço -->
+    <label for="preco">Preço</label>
+    <input type="number" id="preco" name="preco" step="0.01" min="0" placeholder="Digite o preço">
+
+    <!-- Categoria -->
+    <label for="categoria">Categoria</label>
+    <select id="categoria" name="categoria">
+      <option value="250g">250g</option>
+      <option value="500g">500g</option>
+      <option value="1kg">1kg</option>
+    </select>
+
+    <!-- Botão de Enviar -->
+    <button type="submit">Cadastrar Produto</button>
+  </fieldset>
+</form>
   <img src="imagem/cadastro.produto.jpg" alt="xicara de cafe/cadastro" width="300" height="300">
         </main>
 <footer>
