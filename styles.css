@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: hsl(118, 76%, 55%);}
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+        }
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Estilos para o menu de navegação */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para a imagem no cabeçalho */
+  header img {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  /* Estilos para o conteúdo principal */
+  main {
+    padding: 20px;
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  main h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  main article {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  /* Estilos para a imagem dentro do conteúdo principal */
+  main img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
