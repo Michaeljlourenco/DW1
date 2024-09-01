@@ -103,3 +103,22 @@ header h1 {
     width: 100%;
     bottom: 0;
   }
+.container{
+display: flex;
+background-color: green;
+/*alinha a horizotal*/
+justify-content: space-around;
+height: 300px;
+/* alinha na vertical*/ 
+align-items: center;
+
+}
+  .container div{
+flex: 1;
+    background-color:burlywood;
+margin: 15px;
+padding: 30px;
+font-size: 20px;
+padding: 30px;
+text-align: justify;
+  }
